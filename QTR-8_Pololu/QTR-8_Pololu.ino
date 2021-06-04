@@ -1,4 +1,6 @@
 #include <QTRSensors.h>
+// https://www.pololu.com/docs/0J19/2
+
 
 // This example is designed for use with eight RC QTR sensors. These
 // reflectance sensors should be connected to digital pins 3 to 10. The
