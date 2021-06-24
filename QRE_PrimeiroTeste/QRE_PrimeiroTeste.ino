@@ -29,7 +29,7 @@ void loop(){
   // int QRE_Value7 = analogRead(pinoQRE7);
   // int QRE_Value8 = analogRead(pinoQRE8);
   int mediaQRE = (QRE_Value1 + QRE_Value2 + QRE_Value3 + QRE_Value4 + QRE_Value5 + QRE_Value6) / 6; // Soma todos os valores e divide pela quantidade de números no conjunto
-  Serial.print("M     édia: ");
+  Serial.print("Média: ");
   Serial.println(mediaQRE);
   Serial.print("Valor1: ");
   Serial.println(QRE_Value1);
